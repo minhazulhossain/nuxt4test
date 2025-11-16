@@ -10,7 +10,7 @@ export default defineNuxtConfig({
 
     public: {
       // ✅ Fixed - removed /api/v1/ and trailing slash
-      apiBase: process.env.NUXT_PUBLIC_API_BASE || 'https://mumusoadmin.coderdrivelab.com/api/v1/'
+      apiBase: process.env.NUXT_PUBLIC_API_BASE || 'http://mumusoadmin.coderdrivelab.com/api/v1/'
     }
   }
 
