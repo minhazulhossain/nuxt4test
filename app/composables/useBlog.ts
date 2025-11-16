@@ -1,4 +1,4 @@
-export const useBlogAPI = () => {
+export const useBlog = () => {
     const fetchPosts = async (category?: string, page: number = 1, search?: string) => {
         const params = {
             _page: page,
